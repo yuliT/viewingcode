@@ -31,8 +31,7 @@ class UserController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['adminmode', 'indication', 'update', 'view', 'period', 'account', 'select', 'addaccount', 'delete', 'accdelete', 'notactive','userdelete', 'charged', 'updateuser', 'report','updateall', 'report', 'indslegal', 'histlegal', 'invoicelegal', 'addlegal'], 
-						//, 'doubleaccs', 'unaccount', 'activation',
+                        'actions' => ['adminmode', 'indication', 'update', 'view', 'period', 'account', 'select', 'addaccount', 'delete', 'accdelete', 'notactive','userdelete', 'charged', 'updateuser', 'report','updateall', 'report', 'indslegal', 'histlegal', 'invoicelegal', 'addlegal'],
                         'allow' => true,
                         'roles' => ['@'],
 					],
